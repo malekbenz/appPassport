@@ -3,13 +3,14 @@
 <html>
 <head>
     <title>Passport Authentication</title>
-    <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css"> <!-- load bootstrap css -->
-    <link rel="stylesheet" href="lib/font-awesome/css/font-awesome.min.css"> <!-- load fontawesome -->
-    <style>
-        body        { padding-top:80px; }
-    </style>
+    <% include ./partials/head %>
 </head>
 <body>
+  <header>
+    <% include ./partials/header %>
+    <link rel="stylesheet" href="/css/style.css">
+  </header>
+
 <div class="container">
 
     <div class="jumbotron text-center">
@@ -20,7 +21,9 @@
         <a href="/login" class="btn btn-default"><span class="fa fa-user"></span> Local Login</a>
         <a href="/signup" class="btn btn-default"><span class="fa fa-user"></span> Local Signup</a>
     </div>
-
+<footer>
+  <% include ./partials/footer %>
+</footer>
 </div>
 </body>
 </html>
