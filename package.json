@@ -1,0 +1,29 @@
+{
+  "name": "appPassport",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt-nodejs": "latest",
+    "body-parser": "^1.0.2",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.1",
+    "ejs": "^0.8.8",
+    "express": "^4.13.4",
+    "express-session": "^1.13.0",
+    "method-override": "^1.0.2",
+    "mongoose": "^3.8.1",
+    "morgan": "^1.0.1",
+    "passport": "^0.3.2",
+    "passport-facebook": "^2.1.0",
+    "passport-google-oauth": "^1.0.0",
+    "passport-local": "^1.0.0",
+    "passport-twitter": "^1.0.4",
+    "underscore": "^1.8.3"
+  }
+}
