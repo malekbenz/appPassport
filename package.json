@@ -25,5 +25,11 @@
     "passport-local": "^1.0.0",
     "passport-twitter": "^1.0.4",
     "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.11.1",
+    "gulp": "^3.9.1",
+    "gulp-inject": "^3.0.0",
+    "gulp-nodemon": "^2.0.6"
   }
 }
