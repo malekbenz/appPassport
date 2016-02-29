@@ -24,7 +24,6 @@ gulp.task('inject', function () {
 
 
 gulp.task('serve', ['inject'], function() {
-
     var options = {
       script : 'server.js',
       delayTime : 1,
